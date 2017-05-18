@@ -1,16 +1,16 @@
 
 var pets = ["dogs", "cats","cows","rabbit","cats", "hamster","pengein"];
-//pets.sort();
+pets.sort();
 
-//alert(pets);
+alert(pets);
 
-//pets.reverse();
-//alert(pets);
+pets.reverse();
+alert(pets);
 
-//pets.sort().reverse();
-//alert(pets);
+pets.sort().reverse();
+alert(pets);
 
-//alert(pets.indexOf("dogs"));
+alert(pets.indexOf("dogs"));
 
 var result = pets.slice(1, 5);
 alert(result);
